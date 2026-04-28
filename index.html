@@ -702,9 +702,11 @@
     .nav-links { display: none; }
     .hamburger { display: flex; }
     .hero, .about-grid, .resume-layout { grid-template-columns: 1fr; }
-    .hero-image-col { order: -1; }
+    .hero { min-height: unset; padding-bottom: 0; }
+    .hero-image-col { order: -1; padding: 24px 0 12px; }
+    .hero-text { padding: 20px 0 40px; }
     .hero-badge { display: none; }
-    .hero-photo-wrap { width: 300px; height: 380px; }
+    .hero-photo-wrap { width: 260px; height: 320px; }
     .projects-grid, .highlights-grid, .expertise-domains, .rec-grid { grid-template-columns: 1fr; }
     .wins-grid { grid-template-columns: repeat(2,1fr); }
     .tech-grid { grid-template-columns: repeat(2,1fr); }
